@@ -1,0 +1,51 @@
+.flex-container{
+    display: -webkit-flex;
+    display: flex;
+    border-radius: 15px;
+    /* -webkit-flex-direction:row-revese;
+    flex-direction: row-reverse; */
+    width: 80%;
+    height: 800px;
+    /* background-color: #553f6d; */
+    background-image: linear-gradient(to right, #8965a8d8, rgb(123, 61, 164))}
+.flex-start{
+    background-color: #ffffff;
+    align-self: flex-start;
+    border-radius: 15px;
+    width: 20%;
+    /* height: 20%; */
+    margin: 15px;
+}
+.flex-end{
+    background-color: #ffffff;
+    align-self: flex-end;
+    border-radius: 15px;
+    width: 20%;
+    /* height: 20%; */
+    margin: 15px;
+}
+.flex-center{
+    background-color: #ffffff;
+    align-self: center;
+    border-radius: 15px;
+    width: 20%;
+    /* height: 20%; */
+    margin: 15px;
+}
+.flex-baseline{
+    background-color: #ffffff;
+    align-self: baseline;
+    border-radius: 15px;
+    width: 20%;
+    /* height: 20%; */
+    margin: 15px;
+}
+.flex-stretch{
+    background-color: #ffffff;
+    align-self: stretch;
+    /* align-content: stretch; */
+    border-radius: 15px;
+    width: 20%;
+    /* height: 20%; */
+    margin: 15px;
+}

@@ -1,0 +1,16 @@
+.flex-container{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction:row-revese;
+    flex-direction: row-reverse;
+    width: 550px;
+    height: 300px;
+    background-color: rgb(171, 13, 13);
+}
+.flex-item{
+    background-color: cornflowerblue;
+    
+    width: 550px;
+    height: 250px;
+    margin: 10px;
+}

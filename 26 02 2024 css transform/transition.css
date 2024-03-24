@@ -1,0 +1,34 @@
+.box-wrap{
+    width: 10em;
+    height: 10em;
+    background: #957373;
+    border:5px #244606 solid;
+    margin :100px;
+}
+
+.box3d{
+    padding: 5px;
+    width: 3em;
+    height: 3em;
+    transform: rotateZ(90deg) rotateX(45deg) rotateY(140deg); 
+    background: #1d7192;
+}
+
+.box2d{
+    width: 3em;
+    padding: 5px;
+    height: 3em;
+    transform: rotate(15deg);
+    background: #531067;
+}
+@keyframes rotateanimation{
+    0%{
+        transform: rotateZ(90deg) rotateX(45deg) rotateY(140deg); 
+        
+    }
+    100%{
+
+        transform: rotateZ(10deg) rotateX(33deg) rotateY(45deg); 
+    }
+}
+

@@ -1,0 +1,47 @@
+.box{
+    width: 3em;
+    height: 3em;
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+    background: #bced91;
+    
+}
+.boxshrink{
+    width: 3em;
+    height: 3em;
+    transform: scale(.5);
+    background: #bced91;
+    
+}
+.boxstretch{
+    width: 3em;
+    height: 3em;
+    transform: scale(1,2);
+    background: #bced91;
+    
+}
+.box-wrap{
+    width:6em;
+    height:6em;
+    border: 5px solid #282828;
+}
+.boxtranslate{
+    transform: translate(3em,3em);
+}
+.box .fa {
+        font-size: 2em;
+        line-height: 1.45em;
+        text-align: center;
+        transform: rotate(-20deg);
+    color: #000000;
+}
+
+.box .offset{
+    transform: rotate (-25deg) ;
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+}
+.box .offset2{
+    transform: rotate (-25deg) ; 
+    transform-origin: 100% 5%;
+}
