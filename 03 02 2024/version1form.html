@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <style>
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .topnav {
+          overflow: hidden;
+          background-color: #511c05;
+        }
+        
+        .topnav a {
+          float: left;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        
+        .topnav a:hover {
+          background-color: #7e7e7e;
+          color: black;
+          border-radius: 5px;
+          
+        }
+        
+        .topnav a.active {
+          background-color: #04AA6D;
+          color: white;
+        }
+        </style>
+</head>
+<body style="background-color: #ba9c9a; ">
+    <div ><header id="header">
+    
+          <nav id="top" class="topnav" >
+            <a href="loginform_v1.html" class="topnav" >
+              
+                <!-- Uncomment the line below if you also wish to use an image logo -->
+                <!-- <img src="assets/img/logo.png" alt=""> -->
+                <img src="imgs/logo1.jpeg" width="20%" height="20%" style="border-radius: 15px; padding: .05%;" >
+              </a>
+            <div style="align-content: space-between; padding: 4; ">
+              <a href=""> </a><a href=""> </a>
+              <a href=""> </a><a href=""> </a>
+              <a href="#about">About</a>
+             
+              <!-- <li><a href="#menu">Menu</a></li> -->
+              <a href="#contact">Contact</a>
+            
+              <a href="#book-a-table" style="color: red;">Book a Table</a>
+              
+            </nav><!-- .navbar -->
+        </div></header> <!-- End Header -->
+
+        <div id="about" >
+          <div >
+          <img src="imgs/about.jpeg" alt=""  align="right" width="20%" height="20%">
+        </div>
+
+            <div width="30%" height="30%"  align="center"> <!--secton's header-->
+              <caption><h2>About Us</h2></caption>
+              <p>Learn More <span>About Us</span></p>
+              </div>
+              <div style="font-size: x-large; font-family: Lucida Sans;">  
+                  <p ><i>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.</i>
+                  </p>
+                  <ul>
+                    <li><i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li><i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                  </ul>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+                  </p>
+          </div>
+        </div>
+    <hr>
+    <br><br><br>
+    <section style="background-color: #ffffff; width: 80%; margin-left: 10%;" id="book-a-table" >
+      <form  >
+        
+        <fieldset ><legend text-align="center">Booking Details:</legend>
+            <img src="imgs/booking.jpeg" align="left" width="30%" height="30%">
+        <div align="center" style="font-size: x-large; font-family: monospace; border-radius: 10px;">
+            
+        Your Name<sup style="color: #ff1111; ">*</sup> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 
+        <input type="text" name="Name" placeholder="eg: John Smith" required>
+        <br><br>
+        Your Email<sup style="color: #ff1111; ">*</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 
+        <input type="email" name="Email" placeholder="eg: johnmith@example.com" required>
+        <br><br>
+        Your Phone no<sup style="color: #ff1111; ">*</sup> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 
+        <input type="tel" name="Lastname" placeholder="eg: 987654321" required>
+        <br><br>
+    
+        <p><i>Reservation Details :-</i></p><div style="margin-left: 10px;">
+        <!-- <select name="gender"> --> <!--normal view (only one view)-->
+            Table &nbsp; :
+        <select name="gender" size="2" required multiple> 
+            <option value="T1">table 1 </option>
+            <option value="T2">table 2 </option>
+            <option value="T3">table 3 </option>
+            <option value="T4">table 4 </option>
+        </select>
+        &nbsp;Date &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
+        <input type="date">
+        <br>
+        <br>
+        <textarea name="feedback" rows="3" cols="50">Booking Message / Occasion.</textarea><br><br>
+        <div ><button type="submit" style="color: #f5f5f5; background-color: #04AA6D; border-radius: 5px;">Submit Booking</button></div> 
+        </fieldset>
+        </div>
+       
+    </div> 
+    </form>
+  </section>
+<br><hr>
+<section id="contact" >
+    <div  >
+        <h2>Contact</h2>
+        <p>Need Help? <span>Contact Us</span></p>
+        <div >
+              <h3>Our Address</h3>
+              <p>sector 4, Kharghar, Navi Mumbai,Maharashtra</p>
+        </div><!-- End Info Item -->
+
+        <div >
+              <h3>Email Us</h3>
+              <p>godsrestaurant@example.com</p>
+        </div><!-- End Info Item -->
+
+        <div>
+              <h3>Call Us</h3>
+              <p>+91 987654321</p>
+        </div><!-- End Info Item -->
+
+        <div >
+              <h3>Opening Hours</h3>
+              <div><strong>Mon-Sat:</strong> 11AM - 23PM;
+                <strong>Sunday:</strong> Closed
+        </div><!-- End Info Item -->
+
+      </div>
+  </section><!-- End Contact Section -->
+<br><br>
+
+    
+</body>
+</html> 

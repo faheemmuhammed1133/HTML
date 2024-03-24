@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="tailwindform.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+</head>
+<body class="bg-slate-200">
+    <header id="header">
+      <nav id="top" class="bg-blue-200 flex items-center">
+        <a href="form.html" >
+          <img src="/Users/muhammedfaheem/Documents/Documents - Muhammed’s MacBook Air/HTML/zBEntley/Images/bentely_logo-removebg.jpeg" class="rounded-md w-32 h-24 hover:p-1" alt="Restaurant Logo">
+        </a>
+        <div class="ml-auto">
+          <a href="#about" class="navitems">Restaurant</a>
+          <a href="#contact" class="navitems">Contact</a>
+          <a href="#book-a-table" class="text-red-500 p-6 hover:text-red-950 hover:p-6 hover:rounded-md hover:bg-slate-100 ">Book a Table</a>
+        </div> 
+      </nav>
+    </header>
+
+    <div id="about" class="flex justify-between">
+      <div class="ml-8 p-4">
+        <img src="/Users/muhammedfaheem/Documents/Documents - Muhammed’s MacBook Air/HTML/03 02 2024/imgs/about.jpeg" alt="About Image" class="w-auto h-auto rounded-md">
+      </div>
+      <div class="content mr-10 p-4">
+        <h2 class="text-3xl font-bold">From God's Own Dishes</h2>
+        <p class="text-lg">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <ul class="list-disc list-inside">
+          <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+          <li>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+          <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+        </ul>
+        <p class="text-lg">
+          Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+        </p>
+      </div>
+    </div>
+
+    <hr>
+    
+    <section id="book-a-table" class="bg-white w-9/10 mx-auto p-8 rounded-lg">
+      <form>
+        <fieldset>
+          <legend class="text-xl font-semibold">Booking Details:</legend>
+          <img src="/Users/muhammedfaheem/Documents/Documents - Muhammed’s MacBook Air/HTML/03 02 2024/imgs/booking.jpeg" align="left" width="30%" height="470px" class="rounded-xl">
+          
+          <div class="ml-8">
+            <div class="mb-4">
+              <label for="name" class="block">Your Name <sup class="text-red-600">*</sup>:</label>
+              <input type="text" id="name" name="name" placeholder="eg: John Smith" required class="w-96 px-4 py-2 border border-gray-300 rounded-md">
+            </div>
+            <div class="mb-4">
+              <label for="email" class="block">Your Email <sup class="text-red-600">*</sup>:</label>
+              <input type="email" id="email" name="email" placeholder="eg: johnsmith@example.com" required class="w-96 px-4 py-2 border border-gray-300 rounded-md">
+            </div>
+            <div class="mb-4">
+              <label for="phone" class="block">Your Phone no <sup class="text-red-600">*</sup>:</label>
+              <input type="tel" id="phone" name="phone" placeholder="eg: 987654321" required class="w-96 px-4 py-2 border border-gray-300 rounded-md">
+            </div>
+            <div class="mb-4">
+              <label for="members" class="block">Number of Members:</label>
+              <input type="number" id="members" name="members" min="1" required class="w-96 px-4 py-2 border border-gray-300 rounded-md">
+            </div>
+            <div class="mb-4">
+              <label for="time" class="block">Time Slot:</label>
+              <input type="time" id="time" name="time" required class="w-96 px-4 py-2 border border-gray-300 rounded-md">
+            </div>
+            <p><i class="block">Reservation Details:</i></p>
+            <textarea name="feedback" rows="3" cols="50" placeholder="Booking Message / Occasion." class="w-96 px-4 py-2 border border-gray-300 rounded-md mb-4"></textarea>
+            <div>
+              <button type="submit" class="px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600">Submit Booking</button>
+            </div> 
+          </div>
+        </fieldset>
+      </form>
+    </section>
+
+    <hr>
+    
+    <section id="contact" class="p-8">
+      <div>
+        <h2 class="text-2xl">Contact</h2>
+        <p class="mt-4">Need Help? <span class="font-semibold">Contact Us</span></p>
+        <div class="mt-8">
+          <div>
+            <h3 class="font-semibold">Our Address</h3>
+            <p>Sector 4, Kharghar, Navi Mumbai, Maharashtra</p>
+          </div>
+          <div class="mt-4">
+            <h3 class="font-semibold">Email Us</h3>
+            <p>godsrestaurant@example.com</p>
+          </div>
+          <div class="mt-4">
+            <h3 class="font-semibold">Call Us</h3>
+            <p>+91 987654321</p>
+          </div>
+          <div class="mt-4">
+            <h3 class="font-semibold">Opening Hours</h3>
+            <p><strong>Mon-Sat:</strong> 11AM - 23PM; <strong>Sunday:</strong> Closed</p>
+          </div>
+        </div>
+      </div>
+    </section>
+</body>
+</html>

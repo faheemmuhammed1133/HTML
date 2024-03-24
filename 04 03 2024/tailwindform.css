@@ -1,0 +1,3 @@
+.navitems {
+    @apply text-gray-900 p-6 hover:bg-gray-900 hover:p-6 hover:rounded-md hover:text-white
+}

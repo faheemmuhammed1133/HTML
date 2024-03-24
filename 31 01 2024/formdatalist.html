@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+        FORM dropdown datalist
+    </title>
+    </head>
+    <body style="background-color: #87a9a2;">
+        <h1>FORMS IN HTML DROPDOWN DATALIST</h1>
+        <form>
+            <fieldset> 
+                <legend>Personel Info:</legend><br>
+            First Name:<br>
+            <input type="text" name="Firstname">
+            <br>
+            Last Name:<br>
+            <input type="text" name="Lastname">
+            <br>
+            <h6>RADIO BUTTONS (gender)</h6> <br>
+            <input list="gender" name="gender">
+            <datalist id="gender"> 
+                <option value="MALE">MALE</option>
+                <option value="FEMALE">FEMALE</option>
+                <option value="LGBTQHIV">LGBTQHIV+</option>
+            </datalist>
+            <input type="submit">
+            </fieldset>
+            <textarea name="feedback" rows="10" cols="175">Give feedback on this webpage.</textarea><br>
+            <line style="margin-left:53px ;">T&C</line><br>
+            <input type="checkbox" name="t&c" value="none" style="margin-left: 60px;" required><br>
+            <input  type="submit" name="submit" style="margin-left: 45px;">
+        </form>
+        <p>Note the form is used for testing forms in html.</p>
+        <p>Also note that you are testing</p>
+
+    </body>
+</html>

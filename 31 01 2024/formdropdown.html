@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+        FORM dropdown
+    </title>
+    </head>
+    <body style="background-color: #87a9a2;">
+        <h1>FORMS IN HTML DROPDOWN</h1>
+        <form>
+            <fieldset> 
+                <legend>Personel Info:</legend><br>
+            First Name:<br>
+            <input type="text" name="Firstname">
+            <br>
+            Last Name:<br>
+            <input type="text" name="Lastname">
+            <br>
+            <h6>RADIO BUTTONS (gender)</h6> <br>
+            <!-- <select name="gender"> --> <!--normal view (only one view)-->
+            <select name="gender" size="2" required> <!--to view the 2 options-->
+                <option value="MALE">MALE</option>
+                <option value="FEMALE">FEMALE</option>
+                <option value="LGBTQHIV">LGBTQHIV+</option>
+            </select>
+            </fieldset>
+            <textarea name="feedback" rows="10" cols="175">Give feedback on this webpage.</textarea><br>
+            <line style="margin-left:53px ;">T&C</line><br>
+            <input type="checkbox" name="t&c" value="none" style="margin-left: 60px;" required><br>
+            <input  type="submit" name="submit" style="margin-left: 45px;">
+        </form>
+        <p>Note the form is used for testing forms in html.</p>
+        <p>Also note that the default width of a text input field is 20 character.</p>
+
+    </body>
+</html>
